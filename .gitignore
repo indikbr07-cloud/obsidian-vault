@@ -1,0 +1,26 @@
+# === КРИТИЧЕСКИ ВАЖНО: LiveSync креды ===
+# В data.json лежит URL сервера, пароль и E2E passphrase в открытом виде.
+# Если этот файл попадёт в git — всю базу можно будет расшифровать.
+.obsidian/plugins/obsidian-livesync/data.json
+
+# Obsidian: локальный workspace, кэш, корзина
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/appearance.json
+.trash/
+
+# Node (на случай, если в vault случайно попали node_modules)
+node_modules/
+
+# Системные
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Временные файлы Obsidian
+*.tmp
+~*
